@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new data form</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <h1 class="title">Add new data form</h1>
+    <form action="/post-add-data" method="post">
+
+        <label for="name">name: </label>
+        <input type="text" name="name" id="name" required> <br>
+
+        <label for="description">description: </label>
+        <input type="text" name="description" id="description" required> <br>
+
+        <button type="submit">Send</button>
+    </form>
+    <p>Click <a href="/post-add-data">here</a> to see list of all data</p>
+</body>
+
+</html>
